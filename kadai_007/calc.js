@@ -1,4 +1,4 @@
-const num = Math.floor(Math.random() * 100);
+const num = Math.floor(Math.random() * 100) + 1;
 
 // 変数numの値を出力
 console.log(num);
@@ -18,4 +18,5 @@ else if (num % 5 === 0) {
 // それ以外の場合： 変数numの値を出力する
 else {
   console.log(num);
+
 }
